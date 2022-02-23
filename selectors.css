@@ -4,7 +4,7 @@ img[alt='Pollution'] {
 img[src$='.jpg'] {
   margin-left: 50px;
 }
-[data-description*='even'] {
+[data-description~='even'] {
   font-size: 24px;
   background-color: grey;
 }
