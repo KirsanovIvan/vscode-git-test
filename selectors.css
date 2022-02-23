@@ -1,5 +1,5 @@
 img[alt='Pollution'] {
-  border: 5 px dashed red;
+  border: 5px dashed red;
 }
 img[src$='.jpg'] {
   margin-left: 50px;
