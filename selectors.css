@@ -25,7 +25,7 @@ input {
 div > p {
   font-size: 25px;
 }
-input[text] {
+input[type="text"] {
   background-color: grey;
 }
 div:nth-child(3) ~ p {
