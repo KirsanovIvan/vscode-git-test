@@ -19,3 +19,9 @@ button:hover:enabled {
   color: white;
   background-color: gray;
 }
+input:focus {
+  background-color: orange;
+}
+.confirm-checkbox:checked {
+  margin-left: 20px;
+}
