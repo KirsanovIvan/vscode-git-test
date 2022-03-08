@@ -1,40 +1,21 @@
-body {
-  background-color: #bdc3c7;
+a {
+  color: white;
+  background-color: black;
 }
-h1 {
-  color: #9b59b6;
+a:visited {
+  color: green;
+  background-color: orange;
 }
-h2 {
-  color: orange;
-}
-li {
-  color: blue;
-}
-p {
-  background-color: yellow;
-}
-input {
+a:active {
   border: 3px solid red;
 }
-.hello {
-  background-color: white;
+a:hover {
+  font-size: 24px;
 }
-#special {
-  border: 2px solid blue;
+button:disabled {
+  border: 2px dashed grey;
 }
-div > p {
-  font-size: 25px;
-}
-input[type="text"] {
-  background-color: grey;
-}
-div:nth-child(3) ~ p {
-  background-color: yellow;
-}
-div:nth-child(5) > p:nth-child(3) {
-  border: 5px solid white;
-}
-div em {
+button:hover:enabled {
   color: white;
-  font-size: 20px;
+  background-color: gray;
 }
