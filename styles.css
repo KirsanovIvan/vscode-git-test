@@ -11,10 +11,10 @@ body {
   padding: 20px;
   border-top-color: firebrick;
   border-top: solid;
-  border-left-color: chartreuse;
-  border-left: solid;
+  border-right-color: chartreuse;
+  border-right: solid;
   border-bottom-color: burlywood;
   border-bottom: dashed;
-  border-right-color: aqua;
-  border-bottom: dashed;
+  border-left-color: aqua;
+  border-left: dashed;
 }
