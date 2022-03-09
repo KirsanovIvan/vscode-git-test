@@ -1,18 +1,27 @@
-.content {
-  padding: 50px;
-  border: 2px solid black;
-}
-
-.blue {
+.rectangle {
+  border-radius: 16px;
+  height: 50px;
+  width: 100px;
+  background-color: forestgreen;
   margin: 50px;
-  background-color: blue;
 }
-.yellow {
-  background-color: yellow;
+.oval {
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+  background-color: darkmagenta;
+  margin: 50px;
 }
-.green {
-  background-color: green;
+.circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  margin: 50px;
 }
-.pink {
-  background-color: pink;
+.triangle {
+  width: 0px;
+  margin: 50px;
+  border: 50px solid transparent;
+  border-top-color: brown;
 }
