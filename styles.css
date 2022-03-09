@@ -1,13 +1,6 @@
-
-.firstDiv {
+div {
   box-sizing: border-box;
-  background-color: bisque;
-  border-width: 10px 20px;
-  height: 200px;
-  width: 500px;
-  margin: 50px 100px;
-  padding: 20px;
-  border-color: firebrick chartreuse burlywood aqua;
-  border-style: solid solid dashed dashed;
-  font-size: 24px;
+  background-color: aqua;
+  border: 3px solid black;
+  padding: 50px;
 }
