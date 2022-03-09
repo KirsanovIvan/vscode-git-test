@@ -1,16 +1,18 @@
-[type="checkbox"]:checked {
-  margin-left: 50px;
+body {
+  background-color: antiquewhite;
 }
-label {
-  text-transform: uppercase;
+.bothDiv {
+  border: 8px solid black;
+  height: 128px;
+  width: 512px;
+  margin: 16px;
+  padding: 16px;
 }
-#special::first-letter {
-  color: green;
-  font-size: 100px;
+.firstDiv {
+  box-sizing: content-box;
+  background-color: aquamarine;
 }
-h1:hover {
-  color: blue;
-}
-a:visited {
-  color: gray;
+.secondDiv {
+  box-sizing: border-box;
+  background-color: azure;
 }
