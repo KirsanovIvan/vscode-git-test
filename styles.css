@@ -1,7 +1,17 @@
-div {
-  box-sizing: border-box;
-  background-color: aqua;
-  border: 3px solid black;
+.content {
   padding: 50px;
-  margin-bottom: 50px;
+  border: 2px solid black;
 }
+
+.blue {
+  margin: 50px;
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.pink {
+  backgroun
