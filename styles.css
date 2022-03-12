@@ -1,17 +1,20 @@
-.header .footer {
-  height: 50px;
-}
 .header {
   background: yellow;
+  height: 50px;
 }
 .footer {
   background: green;
 }
-main {
-  width: 80px;
+.content {
+  float: left;
+  width: 80%;
+  background: pink;
+  height: 500px;
 }
 .sidebar {
   width: 20%;
+  height: 500px;
+  background: grey;
 }
 .footer {
   clear: both;
