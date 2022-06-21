@@ -1,20 +1,58 @@
-.already-learned ul {
-  background-color: green;
+* {
+  margin: 0;
+}
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+.nav-list {
   color: white;
 }
-.to-be-learned ol {
-  background-color: orange;
-  color: green;
+.nav-item {
+  height: 40px;
+  list-style-type: none;
+  float: left;
+  margin-left: 16px;
 }
-.already-learned code {
-  background-color: orange;
+.content {
+  background-color: beige;
+  height: 5000px;
+  width: 100%;
+  display: flex;
 }
-.to-be-learned code {
-  background-color: green;
+.head {
+  width: 200px;
+  height: 200px;
+  background: aquamarine;
+  margin-top: calc(50% - 150px);
+  margin-left: calc(50% - 150px);
 }
-h4 #special1 + code {
-  border: 2px solid blue;
+.ear {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
 }
-#special2 + li {
-  font-size: 24px;
+.ear-left {
+  margin-left: -40px;
+  margin-top: -60px;
+}
+.ear-right {
+  margin-left: 200px;
+  margin-top: -60px;
+}
+.eye {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+}
+.eye-left {
+  margin-top: -30px;
+  margin-left: 40px;
+}
+.eye-right {
+  margin-top: 80px;
+  margin-left: 130px;
 }
