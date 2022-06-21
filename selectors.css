@@ -2,7 +2,7 @@
   margin: 0;
 }
 .header {
-  background-color: darkturquoise;
+  background: darkturquoise;
   height: 40px;
   position: fixed;
   width: 100%;
@@ -17,7 +17,7 @@
   margin-left: 16px;
 }
 .content {
-  background-color: beige;
+  background: beige;
   height: 5000px;
   width: 100%;
   display: flex;
@@ -34,11 +34,11 @@
   height: 60px;
   background-color: brown;
 }
-.ear-left {
+.ear_left {
   margin-left: -40px;
   margin-top: -60px;
 }
-.ear-right {
+.ear_right {
   margin-left: 200px;
   margin-top: -60px;
 }
@@ -48,11 +48,11 @@
   width: 30px;
   background-color: grey;
 }
-.eye-left {
+.eye_left {
   margin-top: -30px;
   margin-left: 40px;
 }
-.eye-right {
+.eye_right {
   margin-top: 80px;
   margin-left: 130px;
 }
