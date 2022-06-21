@@ -1,9 +1,10 @@
 * {
   margin: 0;
+  /* padding: 0; */
 }
 .header {
-  background: darkturquoise;
   height: 40px;
+  background: darkturquoise;
   position: fixed;
   width: 100%;
 }
@@ -11,15 +12,15 @@
   color: white;
 }
 .nav-item {
+  float: left;
   line-height: 40px;
   list-style-type: none;
-  float: left;
   margin-left: 16px;
 }
 .content {
-  background: beige;
   height: 5000px;
   width: 100%;
+  background: beige;
   display: flex;
 }
 .head {
@@ -27,7 +28,7 @@
   height: 200px;
   background: aquamarine;
   margin-top: calc(50% - 150px);
-  margin-left: calc(50% - 150px);
+  margin-left: calc(50% - 100px);
 }
 .ear {
   width: 40px;
@@ -42,6 +43,7 @@
   margin-left: 200px;
   margin-top: -60px;
 }
+
 .eye {
   border-radius: 50%;
   height: 30px;
