@@ -15,7 +15,7 @@
   list-style-type: none;
 }
 .navigation__item {
-  margin-right: 10px;
+  margin-left: 16px;
 }
 .footer__text {
   margin: auto;
@@ -39,4 +39,10 @@
 .news {
   width: 200px;
   background-color: grey;
+}
+.new_item {
+  margin-top: 16px;
+}
+.news_h {
+  margin: auto;
 }
