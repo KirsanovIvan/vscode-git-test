@@ -1,13 +1,42 @@
-.horizontal {
+.header {
+  height: 40px;
+  background-color: yellow;
   display: flex;
-  height: 50px;
   align-items: center;
-  justify-content: space-around;
 }
-.vertical {
+.footer {
+  height: 40px;
+  background-color: green;
+  display: flex;
+}
+.navigation {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+.navigation__item {
+  margin-right: 10px;
+}
+.footer__text {
+  margin: auto;
+}
+.page {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  min-height: 100vh;
+}
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+}
+.news {
+  width: 200px;
+  background-color: grey;
 }
